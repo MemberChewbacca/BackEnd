@@ -6,9 +6,10 @@ class Welcome extends Application {
 
 	public function index()
 	{
-		$result = 'IT\'S A TRAP!';
-		$this->data['content'] = $result;
-		$this->render();
+            $this->data['title'] = 'Backend Stuff';
+            $this->data['pagetitle'] = 'Go Away Message?';
+            $this->data['content'] = 'Hey you, Hacker. Get off my virtual lawn!';
+            $this->render();
 	}
 
 }
