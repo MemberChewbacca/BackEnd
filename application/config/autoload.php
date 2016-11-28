@@ -59,7 +59,7 @@ $autoload['packages'] = array(APPPATH . '/third_party/restful/');
   |
   |	$autoload['libraries'] = array('user_agent' => 'ua');
  */
-$autoload['libraries'] = array('parser', 'database', 'parsedown');
+$autoload['libraries'] = array('parser', 'database');
 
 /*
   | -------------------------------------------------------------------
