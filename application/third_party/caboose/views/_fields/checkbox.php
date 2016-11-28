@@ -1,1 +1,0 @@
-<input type="checkbox" id="{name}" name="{name}" title="{explain}" {checked} {disabled}/> {label}
